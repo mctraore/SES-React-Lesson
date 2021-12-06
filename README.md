@@ -1,9 +1,9 @@
-# React SES
+# Software Engineering Summit — React Lesson
 
 ## Environment Requirements
 Ensure that Node version >= 14.0.0 and npm version>= 5.6 are installed on your machine. You can install node here: https://nodejs.org/en/
 
-Run `movie-picker`
+## Run `movie-picker`
 The movie-picker repo includes completed code for a React website. In order to run the movie-picker application, clone or download this repo then run the following:
 
 ```cd SES-React-Lesson
@@ -13,6 +13,15 @@ npm start
 ```
 
 View running application at http://localhost:3000
+
+## Create a New React Project
+Run the following commands:
+
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
 
 ## Learning Resources
 
