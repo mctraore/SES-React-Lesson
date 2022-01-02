@@ -20,7 +20,7 @@ const PickMovie = () => {
     return (
 
         <div>
-            <h1>Pick Movie</h1>
+            <h1 className="title">Pick a Movie</h1>
             {picked && 
             <div className ="picked">
                 <div></div>

@@ -10,8 +10,9 @@ export const data = [
         genre: "Comedy"
     },
     {
-        img: "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
-        name: "Eternals",
-        genre: "Science Fiction "
+        img: "https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-mannowayhome_lob_crd_03.jpg",
+        name: "Spider Man: No Way Home",
+        genre: "Action"
     }
+
 ]

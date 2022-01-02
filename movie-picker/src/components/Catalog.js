@@ -6,7 +6,7 @@ import './Catalog.css'
 const Catalog = () => {
     return (
         <div>
-            <h1>Catalog</h1>
+            <h1 className="title">Catalog</h1>
             <div className="movies">
                 {data.map((movie) => (
                     <Movie name={movie.name} genre={movie.genre} image={movie.img}/>

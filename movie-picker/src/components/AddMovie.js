@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
+import {useNavigate} from 'react-router-dom'
 import { data } from '../data/data'
 import './AddMovie.css'
 
 const AddMovie = () => {
+    let navigate = useNavigate();
+
     const [name, setName] = useState('')
     const [genre, setGenre] = useState('')
     const [image, setImage] = useState('')
@@ -25,13 +28,14 @@ const AddMovie = () => {
             genre: genre,
             img: image
         })
+        navigate("../", ({replace: true}));
     }
 
 
 
     return (
         <div className="form">
-            <h1>Add Movie</h1>
+            <h1 className="title">Add Movie</h1>
             <label>Movie Title</label>
             <input onChange={nameHandler}></input>
             <label>Genre</label>

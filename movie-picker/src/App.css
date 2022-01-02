@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  margin: 50px 0;
+  font-family: 'Belleza', sans-serif;
+  font-size: 50px;
+  color: #1D49AE;
+}
+
+button {
+  background-color: #665cbd;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white
+}
